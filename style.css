@@ -11,6 +11,21 @@ html, body, {
     left: 0;
     right: 0;
 }
+
+#overlay {
+    cursor: none;
+    pointer-events: none;
+
+    position: absolute;
+
+    border-radius: 50%;
+
+    height: 400px;
+    width: 400px;
+
+    margin: -200px -200px;
+}
+
 a.url:hover,
 a.zoom:hover {
     color: #777 !important;
