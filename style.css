@@ -6,12 +6,8 @@ html, body, {
 }
 #map {
     position: absolute;
-    top: 50px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-}
-a.url:hover,
-a.zoom:hover {
-    color: #777 !important;
 }
